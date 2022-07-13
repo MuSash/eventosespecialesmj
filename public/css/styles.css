@@ -1,0 +1,163 @@
+
+body{
+    background-color: black;
+}
+
+.servicios{
+    background-color: black;
+}
+.servicios .container h2{
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+.carousel-inner .carousel-item img{
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+}
+.mapapadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel-caption{
+    position: initial;
+    margin: 0 auto;
+    width: 600px;
+}
+.carousel-caption h4{
+    margin-bottom: 1rem;
+}
+.carousel-caption p{
+    padding-bottom: 25px;
+}
+.carousel-indicators [data-bs-target]
+{
+
+    width: 6px;
+    height: 6px;
+    padding: 0px;
+    border: 3px solid #fff;
+    background-color: #000;
+    border-radius: 15px;
+    transition: opacity .6s ease;
+}
+.imgtoldos{
+        content: url(/public/img/toldos.webp) !important;
+    }
+    .imgsillas{
+        content: url(/public/img/slider-2.webp) !important;
+    }
+    .imgvenecianos{
+        content: url(/public/img/slider-3.webp) !important;
+    }
+    .imglona{
+        content: url(/public/img/slider-4.webp) !important;
+    }
+@media (max-width:374px){
+    .carousel-inner .carousel-item img{
+        height: 165px;
+        width: 250px;
+    }
+    .carousel-caption{
+        
+        width: 250px;
+        font-size: 13px;
+    }
+    .carousel-control-prev 
+    {
+        top: 82px;
+        width: 9%;
+        left: -5px;
+        bottom: auto;
+    }
+    .carousel-control-next 
+    {
+        top: 82px;
+        width: 9%;
+        right: -5px;
+        bottom: auto;
+    }
+     .mapa{
+        display: none;
+    }
+    .imgtoldos{
+        content: url(/public/img/mobile/toldos.webp) !important;
+    }
+    .imgsillas{
+        content: url(/public/img/mobile/mesasysillas.webp) !important;
+    }
+    .imgvenecianos{
+        content: url(/public/img/mobile/toldosvenecianos.webp) !important;
+    }
+    .imglona{
+        content: url(/public/img/mobile/toldoslona.webp) !important;
+    }
+        #eventosM{
+        content:url(/public/img/mobile/eventosM.webp) !important;
+        }
+
+   
+}
+@media (min-width:375px) and (max-width:620px) {
+    .carousel-inner .carousel-item img{
+        height: 200px;
+        width: 290px;
+        
+    }
+    .carousel-caption{
+        
+        width: 250px;
+        font-size: 13px;
+    }
+    .carousel-control-prev 
+    {
+        top: 82px;
+        width: 9%;
+        left: -5px;
+        bottom: auto;
+    }
+    .carousel-control-next 
+    {
+        top: 82px;
+        width: 9%;
+        right: -5px;
+        bottom: auto;
+    }
+     .mapa{
+        display: none;
+    }
+    .imgtoldos{
+        content: url(/public/img/mobile/toldos.webp) !important;
+    }
+    .imgsillas{
+        content: url(/public/img/mobile/mesasysillas.webp) !important;
+    }
+    .imgvenecianos{
+        content: url(/public/img/mobile/toldosvenecianos.webp) !important;
+    }
+    .imglona{
+        content: url(/public/img/mobile/toldoslona.webp) !important;
+    }
+    
+}
+@media (min-width:621px) and (max-width:920px) {
+    .carousel-control-prev 
+    {
+        top: 180px;
+        width: 8%;
+        left: -15px;
+        bottom: auto; 
+    }
+    .carousel-control-next 
+    {
+        top: 180px;
+        width: 8%;
+        right: -15px;
+        bottom: auto;
+    }
+     .mapa{
+        display: none;
+    }
+}

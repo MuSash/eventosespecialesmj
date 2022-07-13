@@ -1,0 +1,129 @@
+@media screen and (max-width:4000px){
+    .inicio{
+            /*height: 600px;*/
+            height: 520px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            }
+    .bannertitulo{
+            font-size: 54px;
+            color: white;
+            background-color: black;
+            opacity: 0.7;
+            padding: 60px;
+            padding-top:140px;
+            margin-bottom: 0;         
+            }
+}
+
+@media screen and (max-width:1400px){
+    .inicio{
+            /*height: 600px;*/
+            height: 520px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            }
+
+    .bannertitulo{
+            font-size: 54px;
+            color: white;
+            background-color: black;
+            opacity: 0.7;
+            padding: 60px;
+            padding-top:100px; 
+            text-align: center; 
+            }    
+}
+
+@media screen and (max-width:1200px){
+    .inicio{
+            /*height: 600px;*/
+            height: 520px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            }
+    .bannertitulo{
+            font-size: 54px;
+            color: white;
+            background-color: black;
+            opacity: 0.7;
+            padding: 80px;
+            padding-top:100px; 
+            text-align: center;          
+            }
+}
+
+@media screen and (max-width:992px){
+    .inicio{
+            /*height: 600px;*/
+            height: 520px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            }
+    .bannertitulo{
+            height: 250px;
+            font-size: 54px;
+            color: white;
+            background-color: black;
+            opacity: 0.7;
+            padding: 50px;
+            padding-top:55px; 
+            text-align: center;            
+            }
+}
+
+@media screen and (max-width:768px){
+        .inicio{
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }    
+        .bannertitulo{
+            height: 200px;
+            font-size: 44px;
+            color: white;
+            background-color: black;
+            opacity: 0.7;
+            padding-top:60px; 
+            text-align: center;          
+        }
+}
+
+@media screen and (max-width:576px){
+        .bannertitulo{
+            height: 200px;
+            font-size: 40px;
+            color: white;
+            background-color: black;
+            opacity: 0.7;
+            padding-top:20px; 
+            text-align: center;          
+        }
+}
+@media screen and (max-width:366px){
+            .bannertitulo{
+            height: 200px;
+            font-size: 40px;
+            color: white;
+            background-color: black;
+            opacity: 0.7;
+            padding-top:5px; 
+            text-align: center;          
+        }
+}
+@media screen and (max-width:297px){
+            .bannertitulo{
+            height: 200px;
+            font-size: 30px;
+            color: white;
+            background-color: black;
+            opacity: 0.7;
+            padding-top:20px; 
+            text-align: center;          
+        }
+}

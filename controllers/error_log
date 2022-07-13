@@ -1,0 +1,10 @@
+[19-Jan-2022 14:28:38 America/Boise] PHP Parse error:  syntax error, unexpected 'Datos' (T_STRING), expecting ',' or ';' in /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php on line 71
+[19-Jan-2022 14:31:49 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php:70) in /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php on line 71
+[19-Jan-2022 14:34:41 America/Boise] PHP Parse error:  syntax error, unexpected 'Datos' (T_STRING), expecting ',' or ';' in /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php on line 72
+[19-Jan-2022 14:35:17 America/Boise] PHP Parse error:  syntax error, unexpected 'Datos' (T_STRING), expecting ',' or ';' in /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php on line 72
+[19-Jan-2022 14:35:42 America/Boise] PHP Parse error:  syntax error, unexpected 'Datos' (T_STRING), expecting ',' or ';' in /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php on line 72
+[19-Jan-2022 14:36:08 America/Boise] PHP Parse error:  syntax error, unexpected 'Datos' (T_STRING), expecting ',' or ';' in /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php on line 72
+[09-Mar-2022 17:42:56 America/Boise] PHP Warning:  Undefined array key "dirección" in /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php on line 31
+[11-Mar-2022 09:15:26 America/Boise] PHP Warning:  Undefined array key "dirección" in /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php on line 31
+[11-Mar-2022 23:30:33 America/Boise] PHP Warning:  Undefined array key "dirección" in /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php on line 31
+[14-Mar-2022 13:23:37 America/Boise] PHP Warning:  Undefined array key "dirección" in /home3/ghxumdmy/public_html/eventosespecialesmj/controllers/contacto.php on line 31
