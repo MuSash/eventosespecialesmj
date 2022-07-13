@@ -1,0 +1,23 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^eventosespecialesmj.com$ [OR]
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/webp "access 1 year"
+ExpiresByType text/css "access 1 year"
+ExpiresByType text/html "access 1 year"
+ExpiresByType text/x-javascript "access 1 year"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 year"
+</IfModule>
+
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
